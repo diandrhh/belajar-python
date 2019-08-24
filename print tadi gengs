@@ -1,0 +1,40 @@
+
+segitiga = SegitigaSamaSisi(10)
+
+print ' sisi segitiga sama sisi adalah', segitiga.sisi
+print 'luas segitiga sama sisi adalah', segitiga.luas()
+
+
+
+
+
+kubus2 = Kubus(2)
+print 'sisi kubus adalah', kubus2.sisi
+print 'keliling kubus adalah', kubus2.keliling() , 'mantul gengs'
+print 'luas kubus adalah', kubus2.luas()
+print 'volume kubus adalah', kubus2.volume()
+
+
+
+balok1 = balok(3, 2, 1)
+
+print(balok1.keliling())
+print(balok1.luas())
+print(balok1.volume())
+
+print 'keliling balok 1 adalah', balok1.keliling()
+
+gudangperalatan = balok(0, 8, 0)
+
+luas = 96
+lebar = gudangperalatan.lebar
+panjang = luas / lebar
+print 'panjang dari gudang peralatan adalah ', panjang
+gudangperalatan.setnilaipanjang(panjang)
+print 'panjang dari gudang peralatan adalah ', gudangperalatan.panjang
+
+gudangperalatan.setnilaitinggi(2)
+print 'volumenya adalah', gudangperalatan.volume()
+
+print 'kelilingnya adalah', gudangperalatan.keliling()
+print 'luasnya adalah', gudangperalatan.luas()
